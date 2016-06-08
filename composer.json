@@ -1,0 +1,22 @@
+{
+    "name": "schnabear/php-cleverslack-bot",
+    "description": "Cleverbot.IO bridge using PHP Slack Bot",
+    "homepage": "https://github.com/schnabear/php-cleverslack-bot",
+    "keywords": [
+        "cleverbot",
+        "slack"
+    ],
+    "require": {
+        "jclg/php-slack-bot": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "schnabear"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PhpCleverSlackBot\\": "src"
+        }
+    }
+}
