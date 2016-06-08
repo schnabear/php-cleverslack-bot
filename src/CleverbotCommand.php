@@ -6,9 +6,9 @@ class CleverbotCommand extends \PhpSlackBot\Command\BaseCommand
 {
     const API_URL  = 'https://cleverbot.io/1.0/';
 
-    private $user = null;
-    private $key  = null;
-    private $nick = null;
+    protected $user = null;
+    protected $key  = null;
+    protected $nick = null;
 
     public function __construct($user, $key)
     {
