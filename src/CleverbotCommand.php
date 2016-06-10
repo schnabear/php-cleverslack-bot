@@ -49,7 +49,7 @@ class CleverbotCommand extends \PhpSlackBot\Command\BaseCommand
             $text = trim($text);
 
             if (strtolower($text) == 'ping') {
-                $message = str_replace('i', 'o', $text);
+                $message = str_replace(array('i', 'I'), array('o', 'O'), $text);
             } else {
                 $options = array(
                     'user' => $this->user,
